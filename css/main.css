@@ -1787,10 +1787,10 @@ a {
   background-repeat: no-repeat;
 }
 .review-slide__title--love::after {
-  background-image: url("/img/svg/love.svg");
+  background-image: url("../img/svg/love.svg");
 }
 .review-slide__title--cup::after {
-  background-image: url("/img/svg/cup.svg");
+  background-image: url("../img/svg/cup.svg");
 }
 .review-slide__description {
   margin: 0;
@@ -1835,7 +1835,7 @@ a {
   width: 15px;
   height: 15px;
   content: "";
-  background-image: url("/img/svg/arrow.svg");
+  background-image: url("../img/svg/arrow.svg");
 }
 @media (any-hover: hover) {
   .swiper-button-next:hover,
