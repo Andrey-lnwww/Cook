@@ -642,22 +642,22 @@ a {
 }
 
 .preview {
-  background: url("../img/preview.png") center center/cover no-repeat;
+  background: url("../img/preview.jpg") center center/cover no-repeat;
   height: var(--vh);
 }
 @media only screen and (max-width: 1024px) {
   .preview {
-    background: url("../img/previewTablet.png") center center/cover no-repeat;
+    background: url("../img/previewTablet.jpg") center center/cover no-repeat;
   }
 }
 @media only screen and (max-width: 576px) {
   .preview {
-    background: url("../img/previewMobile.png") center center/cover no-repeat;
+    background: url("../img/previewMobile.jpg") center center/cover no-repeat;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px), only screen and (-o-min-device-pixel-ratio: 2/1) and (-o-min-device-pixel-ratio: 2/1) and (min-width: 1440px), only screen and (min-resolution: 2dppx) and (min-resolution: 192dpi) and (min-width: 1440px) {
   .preview {
-    background: url("../img/preview2x.png") center center/cover no-repeat;
+    background: url("../img/preview2x.jpg") center center/cover no-repeat;
   }
 }
 @media (max-width: 1024px) {
@@ -1103,22 +1103,22 @@ a {
 }
 
 .checkout {
-  background: url("../img/Menu-Card.png") left center/cover fixed no-repeat;
+  background: url("../img/Menu-Card.jpg") left center/cover fixed no-repeat;
   min-height: 850px;
 }
 @media only screen and (max-width: 1024px) {
   .checkout {
-    background: url("../img/Menu-CardTablet.png") left center/cover fixed no-repeat;
+    background: url("../img/Menu-CardTablet.jpg") left center/cover fixed no-repeat;
   }
 }
 @media only screen and (max-width: 576px) {
   .checkout {
-    background: url("../img/previewMobile.png") right center/cover fixed no-repeat;
+    background: url("../img/previewMobile.jpg") right center/cover fixed no-repeat;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px), only screen and (-o-min-device-pixel-ratio: 2/1) and (-o-min-device-pixel-ratio: 2/1) and (min-width: 1440px), only screen and (min-resolution: 2dppx) and (min-resolution: 192dpi) and (min-width: 1440px) {
   .checkout {
-    background: url("../img/Menu-Cardx2.png") center center/cover fixed no-repeat;
+    background: url("../img/Menu-Cardx2.jpg") center center/cover fixed no-repeat;
   }
 }
 .checkout__container {
