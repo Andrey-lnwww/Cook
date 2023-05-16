@@ -646,7 +646,12 @@ a {
 }
 @media only screen and (max-width: 576px) {
   .preview {
-    background: url("..//img/previewMobile.png") center center/cover no-repeat;
+    background: url("../img/previewMobile.png") center center/cover no-repeat;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px), only screen and (-o-min-device-pixel-ratio: 2/1) and (-o-min-device-pixel-ratio: 2/1) and (min-width: 1440px), only screen and (min-resolution: 2dppx) and (min-resolution: 192dpi) and (min-width: 1440px) {
+  .preview {
+    background: url("../img/preview2x.png") center center/cover no-repeat;
   }
 }
 @media (max-width: 1024px) {
@@ -1443,7 +1448,7 @@ a {
   bottom: -53px;
   width: 216px;
   height: 159px;
-  z-index: 1;
+  z-index: -1;
 }
 @media (max-width: 1440px) {
   .important__video {
